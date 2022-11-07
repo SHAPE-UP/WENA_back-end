@@ -14,7 +14,7 @@ const UserSchema = mongoose.Schema({
     password: { // 비밀번호
         type: String,
         required: true,
-        maxlength: 10
+        maxlength: 20
     },
     usermail: { // 사용자이메일
         type: String,
