@@ -19,7 +19,7 @@ const UserSchema = mongoose.Schema({
     usermail: { // 사용자이메일
         type: String,
         required: true,
-        maxlength: 20,
+        maxlength: 40,
         unique:1
     },
     residence: { // 주소
